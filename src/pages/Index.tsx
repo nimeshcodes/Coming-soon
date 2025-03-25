@@ -33,7 +33,7 @@ const Index = () => {
           >
             <div className="relative h-16 md:h-20">
               <h1 className="text-3xl md:text-4xl font-bold tracking-tighter">
-                <span className="text-gradient">AUSASI</span>
+                <span className="text-gradient">A<span className="text-red-500">USA</span>SI</span>
               </h1>
               <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-12 h-px bg-gradient-to-r from-transparent via-ausasi-accent to-transparent" />
             </div>

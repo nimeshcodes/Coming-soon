@@ -6,10 +6,10 @@ import EmailSignup from '@/components/EmailSignup';
 import SocialLinks from '@/components/SocialLinks';
 
 const Index = () => {
-  // Set future launch date (3 months from now)
+  // Set future launch date (1 week from now instead of 3 months)
   const [targetDate] = useState(() => {
     const date = new Date();
-    date.setMonth(date.getMonth() + 3);
+    date.setDate(date.getDate() + 7); // Changed from 3 months to 1 week
     return date;
   });
 
@@ -72,7 +72,7 @@ const Index = () => {
             >
               Want to be the first to know?
             </h3>
-            <EmailSignup className={isLoaded ? undefined : ''} style={{ animationDelay: '600ms' }} />
+            <EmailSignup />
           </div>
           
           {/* Social Media Links */}

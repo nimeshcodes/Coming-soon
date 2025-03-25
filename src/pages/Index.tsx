@@ -56,7 +56,7 @@ const Index = () => {
             className={`text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-10 opacity-0 ${isLoaded ? 'animate-fade-in' : ''}`}
             style={{ animationDelay: '300ms' }}
           >
-            AUSASI is redefining the future. Be the first to experience what's next.
+            AUSASI is Gift more. Be the first to experience what's next.
           </p>
           
           {/* Countdown Timer */}
